@@ -1,0 +1,14 @@
+# 점의 개수
+$Vertex           6  
+# 면의 개수  
+$Faces            2   
+# 점번호 x y z 
+Vertex         1   0 0 0  
+Vertex         2   639 479 0
+Vertex         3   0 479 0
+Vertex         4   300.5 70.4 0 
+Vertex         5   500.8 50.5 0
+Vertex         6   400.8 450.1 0
+# 면번호 r g b “점의 개수” “면을 이루는 점들”(점의 개수는 유동적)..
+Face 1 1 2 3 
+Face 2 5 6 1
